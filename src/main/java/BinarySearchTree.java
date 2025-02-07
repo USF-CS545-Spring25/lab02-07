@@ -49,6 +49,20 @@ class BinarySearchTree {
         }
     }
 
+    /**
+     * Find a given value in the tree
+     * @param elem
+     * @return
+     */
+    public boolean findIterative(int elem) {
+        BSTNode curr = root;
+        while (curr != null) {
+            // FILL IN CODE
+
+        }
+        return false;
+    }
+
     /** Return the largest value in the BST. Must be efficient.
      *
      * @return largest value
